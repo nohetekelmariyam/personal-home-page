@@ -1,0 +1,125 @@
+html
+ {background-color: #edf2f4;
+  margin: 0px;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+#first-div{
+  display:flex;
+ justify-content: space-between
+}
+.first-h3{font-size:30px;
+ margin-top:35px;
+font-family: 'Happy Monkey', cursive;}
+.main{text-align:center;}
+.pers{color:#ef233c;}
+li{display:inline;
+  cursor:pointer;
+  color:#2b2d42;
+  background-color:#edf2f4;
+
+  padding: 5px 10px 5px 10px;
+  border-radius:15px;
+  font-weight:bold;
+  float:right;
+  margin: 25px 10px 0px 10px;
+   list-style-type:none;}
+li:hover{ 
+  box-shadow: 5px 5px 5px #ef233c;}
+.profile{width:300px;
+  border: 8px solid #8d99ae;
+ border-radius: 10px;}
+.title{font-size:25px;
+  font-family: 'Happy Monkey', cursive;
+        color:#ef233c;
+text-shadow: 5px 5px 5px #2b2d42;}
+.about-me{font-size:18px;}
+#about-div{text-align:center;}
+.about{
+      font-size:30px;
+   background-color:#8d99ae;
+   text-shadow:1px 2px 4px #ef233c;}
+.home-town{font-size:20px;
+ 
+ }
+.main-div{
+  height:250px;
+  display: flex;
+  justify-content: space-around;
+}
+.africa-union{
+  
+  border-radius:15px;
+ width:230px;}
+.name{font-size:30px;
+  margin-top:3px;
+    text-align:center;
+     }
+.entoto{
+ 
+  border-radius:15px;
+ width:230px;
+  height:195px;}
+
+.hobbies{
+      font-size:25px;
+   text-align:center;
+   text-shadow:1px 2px 4px #ef233c;}
+.hobbies-div{display:flex;
+       justify-content: space-around; }
+
+.football-img,.swimming-img,.coding-img{
+  
+  border-radius:50%;
+  height:150px;
+ width:150px;}
+
+.c-site-footer{text-align:center;
+  background-color:#2b2d42;
+   color:#edf2f4;}
+#contact{font-size:16px;
+        }
+
+.email-space{margin-bottom:10px;}
+
+.input-email{width:280px;
+  padding: 7px 15px; 
+  margin-left:20px;}
+
+.comment-space{width:400px;
+             height:30px;
+              margin-left:80px;}
+.button1{color:#2b2d42; 
+  backgroun-color:#8d99ae;
+  font-size:15px;
+  
+        margin-left:15px;
+  width:90px;
+height:25px;}
+.button1:hover {
+  transform: scale(1.1);
+  filter: brightness(.5);}
+.social-m{
+  
+  overflow: hidden;
+  margin:30px auto 30px auto;
+  }
+
+.twitter{border-radius:50%;
+  cursor: pointer;
+  height:30px;
+ width:50px;}
+
+  
+.facebook,.instagram {border-radius:50%;
+  cursor: pointer;
+  height:30px;
+ width:30px;}
+
