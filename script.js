@@ -8,6 +8,7 @@ const {
     These are all the elements we will look for.
      ===================
   */
+
   const getHeader = document.querySelectorAll("header"),
     getH1 = document.querySelectorAll("h1"),
     getSiteHeader = document.querySelectorAll(".c-site-header"),
@@ -18,6 +19,8 @@ const {
     getIFrame = document.querySelectorAll("iframe"),
     getImage = document.querySelectorAll("img"),
     getWords = document.body.innerText;
+
+    
   
   /* =================
      ASSERTIONS 
@@ -56,7 +59,6 @@ const {
   test("There are at least 500 words on the page", () => {
     expect(getWords.length).toBeGreaterThanOrEqual(500);
   });
+
   
-  const console = document.getElementById("tests");
-  prettify.toHTML(run(), console);
   
