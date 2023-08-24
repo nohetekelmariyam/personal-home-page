@@ -1,3 +1,18 @@
+<!-- =================
+  WRITE YOUR HTML HERE
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+
+<!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+<!-- Your test console.
+Don't delete!-->
 <aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
 </aside>
 <!DOCTYPE html>
@@ -30,13 +45,13 @@
     </div>
   
   <div class="main">
-    <button id="day">day mode</button>
-    <button id="night">Night mode</button>
+    <button id="day">DAY MODE</button>
+  <button id="night">NIGHT MODE</button>
   <h1>Hi, i'am <span class="pers">Nohe</span> </h1>
   <img class="profile"
 src="https://i.postimg.cc/wMTp5T0P/photo-2023-03-08-11-37-26.jpg">
 <p class="title"> The only way to do <br>great work is to <br>love what you do! </p> 
-<p  id="aboutMe">I love learning programing. I studying Html, CSS, JavaScript on YouTube. 
+<p class="about-me">I love learning programing. I studying Html, CSS, JavaScript on YouTube. 
   it's hard to learn on YouTube but I love that feeling<br> after I fix the error in my code. 
 in this time website is become very important and I am interested in that<br>
 
@@ -45,17 +60,11 @@ in this time website is become very important and I am interested in that<br>
 
 I am interested in this practice, and it can help me grow personally and professionally. 
 I'm sure it will be <br>the base for my future work experience.</p>
-
 </div>
 </main>
 <div id="about-div">
 <p class="about"> ABOUT </p>
-
-  <p class="home-town"> My name is Nohe Tekelmariyam, i'm 18 years old. 
-    i lived in ethiopia for 16 years, i was born Addis Abeba.
-     Addis Ababa, capital and largest city of Ethiopia. 
-     It is located on a well-watered plateau surrounded by hills and mountains, in the geographic center of the country.
-     Several international organizations have their headquarters in the city, notably the African Union and the United Nations Economic Commission for Africa. if you are intersted to know more about Addis Abeba.<a href="https://en.wikipedia.org/wiki/Addis_Ababa
+  <p class="home-town"> My name is Nohe Tekelmariyam, i'm 18 years old. i lived in ethiopia for 16 years, i was born Addis Abeba. Addis Ababa, capital and largest city of Ethiopia. It is located on a well-watered plateau surrounded by hills and mountains, in the geographic center of the country.Several international organizations have their headquarters in the city, notably the African Union and the United Nations Economic Commission for Africa. if you are intersted to know more about Addis Abeba.<a href="https://en.wikipedia.org/wiki/Addis_Ababa
 ">click here</a></p>
   <div class="main-div">
   <div>
@@ -115,7 +124,7 @@ if you have any question please contact me
   <img class="twitter" src="https://i.postimg.cc/Cx27G616/Twitter-Symbol.png">
        </a>
     
-   <a herf="#">  <img class="facebook" src="https://i.postimg.cc/9FYg3pfL/facebook-logo.png">
+   <a herf="https://www.facebook.com/login">  <img class="facebook" src="https://i.postimg.cc/9FYg3pfL/facebook-logo.png">
      
    </a>
     
@@ -123,27 +132,22 @@ if you have any question please contact me
   <img class="instagram"
        src="https://i.postimg.cc/TwThsfN7/intagram-logo.jpg">
        </a>
-      
-       <button id="night">night mode</button>
-       
+  
   </div>
 </footer>
-
 </body>
-<script>
-   document.getElementById('night').addEventListener('click', (event) => {
-    let element_ul = document.getElementById('ul');
-    element_ul.style.color = '#ff6600';
-    element_ul.style.backgroundColor = '#333333';
-  
-  });
-  
-  document.getElementById('day').addEventListener('click', (event) => {
-    let element_ul2 = document.getElementById('ul');
-    element_ul2.style.background = "#edf2f4";
-  
-  });  
+<script> document.getElementById('night').addEventListener('click', (event) => {
+  let element_ul = document.getElementById('ul');
+  element_ul.style.color = '#ff6600';
+  element_ul.style.backgroundColor = '#333333';
 
-    
+});
+
+document.getElementById('day').addEventListener('click', (event) => {
+  let element_ul2 = document.getElementById('ul');
+  element_ul2.style.color = '#000000';
+  element_ul2.style.backgroundColor = '#edf2f4';
+
+});  
 </script>
 </html>
